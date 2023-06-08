@@ -1,0 +1,21 @@
+/* navbarStyles.css */
+.nav-item-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  
+  .nav-link-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-button-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  

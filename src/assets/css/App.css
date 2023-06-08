@@ -1,0 +1,40 @@
+.gallery {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+.gallery::before,
+.gallery::after {
+  content: "";
+  flex-grow: 1;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+  
+  .gallery > * {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+  
+  .gallery::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .gallery {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .gallery::before {
+    left: 0;
+  }
+  
+  .gallery::after {
+    right: 0;
+  }
+
+  
+  

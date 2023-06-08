@@ -1,0 +1,17 @@
+.image-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .logo-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+
+  .text-color {
+    color: rgb(205, 222, 243);
+  }
+  
