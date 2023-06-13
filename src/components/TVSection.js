@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import { Container } from 'react-bootstrap';
-import backgroundImage from 'C:/Users/Abel/Desktop/code/radiofinal/src/assets/img/tvback.jpg';
+import backgroundImage from '../assets/img/tvback.jpg';
 
 const TVSection = forwardRef((props, ref) => {
   return (
@@ -8,7 +8,7 @@ const TVSection = forwardRef((props, ref) => {
       <div className="overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'black', opacity: 0.5 }}></div>
       <Container>
         <div className="title-brand d-flex justify-content-center align-items-center">
-              <img src={require("C:/Users/Abel/Desktop/code/radiofinal/src/assets/img/telelogo.png")} alt="Tele 8 Logo" className="img-fluid" />
+              <img src={require("../assets/img/telelogo.png")} alt="Tele 8 Logo" className="img-fluid" />
         </div>
             
         <iframe
