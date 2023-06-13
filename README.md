@@ -5,6 +5,8 @@ Aplicación frontend que incorpora un reproductor radial y de TV, diseñado para
 ### Instalación
 
 1.- git clone repository.
+
 2.- npm install --legacy-peer-deps.
+
 3.- npm start.
 
